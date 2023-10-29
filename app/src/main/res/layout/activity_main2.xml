@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity2">
+    <TextView
+        android:id="@+id/txt_topicNameHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz App"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#0036FF"
+        android:background="@drawable/heading_background"
+        android:layout_marginTop="5dp"
+        android:padding="4dp"
+        android:typeface="monospace"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/txt_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Question"
+        android:layout_margin="5dp"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/radio_button_background"
+            android:clickable="true"
+            android:text="Option 1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,KeyboardInaccessibleWidget,DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Option 2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/radio_button_background"
+            android:layout_margin="5dp"
+            tools:ignore="HardcodedText,KeyboardInaccessibleWidget,VisualLintButtonSize" />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Option 3"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/radio_button_background"
+            android:layout_margin="5dp"
+            tools:ignore="HardcodedText,KeyboardInaccessibleWidget,VisualLintButtonSize" />
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Option 4"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/radio_button_background"
+            android:layout_margin="5dp"
+            tools:ignore="HardcodedText,KeyboardInaccessibleWidget,VisualLintButtonSize" />
+
+    </RadioGroup>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:background="@drawable/heading_background"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="18dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
