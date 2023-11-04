@@ -9,7 +9,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity3 extends AppCompatActivity {
-    TextView result,topicName;
+    TextView result;
+    TextView topicName;
     Button tryAgain;
     @SuppressLint("SetTextI18n")
     @Override
