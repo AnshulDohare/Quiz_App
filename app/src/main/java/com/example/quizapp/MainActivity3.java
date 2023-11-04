@@ -31,6 +31,7 @@ public class MainActivity3 extends AppCompatActivity {
             intent.putExtra("index",index);
             intent.putExtra("topic",ApplicationClass.topics.get(index).getTopicName());
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
             finish();
         });
     }
